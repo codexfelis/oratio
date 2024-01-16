@@ -1,0 +1,35 @@
+/* Dark mode colors. */
+:root {
+  --sl-color-accent-low: #192534;
+  --sl-color-accent: #65729f;
+  --sl-color-accent-high: #babfde;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #eeeded;
+  --sl-color-gray-2: #c3c1c1;
+  --sl-color-gray-3: #8d8b8b;
+  --sl-color-gray-4: #5a5757;
+  --sl-color-gray-5: #3a3737;
+  --sl-color-gray-6: #282626;
+  --sl-color-black: #191818;
+}
+/* Light mode colors. */
+:root[data-theme="light"] {
+  --sl-color-accent-low: #002f5f;
+  --sl-color-accent: #043565;
+  --sl-color-accent-high: #113b6b;
+  --sl-color-white: #191818;
+  --sl-color-gray-1: #282626;
+  --sl-color-gray-2: #3a3737;
+  --sl-color-gray-3: #5a5757;
+  --sl-color-gray-4: #8d8b8b;
+  --sl-color-gray-5: #c3c1c1;
+  --sl-color-gray-6: #eeeded;
+  --sl-color-gray-7: #f7f6f6;
+  --sl-color-black: #ffffff;
+}
+body {
+  font-family: "Work Sans Variable", sans-serif;
+}
+h1, a.site-title {
+  font-family: "Eagle Lake", sans-serif;
+}

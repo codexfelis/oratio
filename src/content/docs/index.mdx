@@ -1,0 +1,34 @@
+---
+title: Welcome to Oratio!
+template: splash
+hero:
+  tagline: Tutorials and explanations on all things tech, for people who just need to get their research done
+  image:
+    light: ../../assets/light.png
+    dark: ../../assets/dark.png
+
+  actions:
+    - text: Get started
+      link: /guides/welcome/
+      icon: right-arrow
+      variant: primary
+    - text: Suggest a topic
+      link: https://github.com/codexfelis/oratio/issues/new
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+<CardGrid stagger>
+
+	<Card title="Feel at home" icon="open-book">
+		Learn technical concepts as they apply to your own research, with examples you can relate to.
+	</Card>
+	<Card title="Complicated topics, friendly words" icon="rocket">
+		We'll not use any jargon terms without explaining them, or assume you know things. Tell us if we mess up!
+	</Card>
+	<Card title="Need more help?" icon="discord">
+		Come hang out with a bunch of like-minded folks in [our supportive community](https://digitalhumaniteas.com) on Discord.
+	</Card>
+</CardGrid>
