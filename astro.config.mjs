@@ -25,12 +25,10 @@ export default defineConfig({
 
     }, {
       label: 'What is...',
-	  items: [
-		// Each item here is one entry in the navigation menu.
-		{
-		  label: 'GitHub?',
-		  link: '/what-is/github/'
-		}]
+      autogenerate: {
+        directory: 'what-is'
+      }
     }]
   }),    ]
+  
 });

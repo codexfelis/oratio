@@ -1,6 +1,8 @@
 ---
 title: What is Oratio?
 description: Oratio is a place for digital humanists to learn the technical topics no-one ever taught them
+prev: false
+next: false
 ---
 
 Welcome! Oratio is a place for digital humanists to learn the technical topics no-one ever teaches. You can find explanations of concepts from programming and technical tools, which don't assume you have or want a degree in computer science. 

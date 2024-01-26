@@ -1,6 +1,8 @@
 ---
 title: What is GitHub?
 description: GitHub is a place where open-source code is built and shared
+sidebar:
+    label: GitHub?
 ---
 
 [GitHub](https://github.com) is a website where open-source code is build and shared. Think of code here in the loosest sense - smallish data sets in text files or spreadsheets, your thesis in a Markdown file, anything that is sort of vaguely text-based can happily live on GitHub. 
