@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://oratio.codexfelis.dev',
   integrations: [starlight({
     title: 'Oratio',
     description: 'Tutorials and tech explainers for digital humanists, from Codex Felis',
