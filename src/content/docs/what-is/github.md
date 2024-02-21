@@ -11,14 +11,18 @@ smallish data sets in text files or spreadsheets,
 your thesis in a Markdown file,
 anything that is sort of vaguely text-based can happily live on GitHub.
 
-On a technical level, GitHub is a remote host for [git](https://git-scm.com/book/) repositories (among a bunch of other features),
-but unless you already know or want to dig into `git`,
-it does a really good job of hiding that complexity from you when you just want to get stuff done.
+On a technical level, GitHub is a remote host for [git](https://git-scm.com/book/) repositories (among a bunch of other features). 
+This means you can do `git`-related things like making and rolling back changes to your code in commits,
+as well as GitHub-specific things 
+like making a **pull request** (PR) to ask for feedback and revisions before merging a branch or fork.
+Unless you already know or want to dig into `git`,
+GitHub does a really good job of hiding that complexity from you when you just want to get stuff done.
 
 There's one key piece of terminology that comes up with GitHub, and can be a bit confusing.
 A **repository** or **repo** is a bunch of code collected together in some kind of project.
-This maps to a `git` repository, and to the web address you see on GitHub -
-these are always of the format `https://github.com/<OWNER>/<REPOSITORY>`.
+This maps to a directory (or folder) on your computer, 
+a `git` repository, and to the web address you see on GitHub. 
+GitHub repository URLs are always of the format `https://github.com/<OWNER>/<REPOSITORY>`.
 Repositories can be public (anyone can see them),
 or private (only specified people can see them).
 
@@ -66,7 +70,7 @@ check it out on [Choose a License](https://choosealicense.com/licenses/) for a s
 
 All code on GitHub _should_ have an associated license file,
 but in many smaller projects it may be missing.
-In this case you technically can't use the code for anything,
+In this case you technically don't have permission to use the code for anything,
 but you might be able to reach out to the maintainer, [as suggested here](https://choosealicense.com/no-permission/).
 
 ### Using issues for feedback
