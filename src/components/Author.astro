@@ -1,0 +1,34 @@
+---
+import { getDataEntryById } from "astro:content";
+const { id } = Astro.props;
+const author = await getDataEntryById("authors", id);
+const { name, link } = author.data;
+---
+
+{
+  link ? (
+    <li>
+      <a href={link}>{name}</a>
+    </li>
+  ) : (
+    <li>{name}</li>
+  )
+}
+
+<style>
+  li {
+    display: inline;
+  }
+  li::after {
+    content: ", ";
+  }
+  li:last-child::after {
+    content: "";
+  }
+  a {
+    color: var(--sl-color-text-accent);
+  }
+  a:hover {
+    color: var(--sl-color-white);
+  }
+</style>

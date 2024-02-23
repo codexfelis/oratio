@@ -1,6 +1,7 @@
 ---
 title: What is GitHub?
 description: GitHub is a place where open-source code is built and shared
+authors: [caro]
 sidebar:
   label: GitHub?
 ---
