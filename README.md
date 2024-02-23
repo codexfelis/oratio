@@ -4,7 +4,8 @@
 
 ## Developing
 
-To run the project locally, you'll need [NodeJS](https://nodejs.org/) version 20 or newer, and [pnpm](https://pnpm.io/installation) installed.
+To run the project locally, you'll need [NodeJS](https://nodejs.org/) version 20 or newer,
+and [pnpm](https://pnpm.io/installation) installed.
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
@@ -15,11 +16,15 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm preview`            | Preview your build locally, before deploying     |
 | `pnpm astro ...`          | Run CLI commands like `astro add`, `astro check` |
 
-Want to learn more? Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Want to learn more?
+Check out [Starlight’s docs](https://starlight.astro.build/),
+or read [the Astro documentation](https://docs.astro.build).
 
 ## Contributing
 
-We welcome any contributions, see [CONTRIBUTING.md](https://github.com/codexfelis/oratio/blob/main/CONTRIBUTING.md) for more details. 
+We welcome any contributions,
+see [CONTRIBUTING.md](https://github.com/codexfelis/oratio/blob/main/CONTRIBUTING.md) for more details.
+Contributions are bound by the [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 ## License
 
