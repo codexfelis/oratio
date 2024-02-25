@@ -1,0 +1,31 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/PageTitle.astro";
+import Author from "./Author.astro";
+const { authors } = Astro.props.entry.data;
+console.log(authors);
+---
+
+<Default {...Astro.props}>
+  <slot />
+</Default>
+{
+  authors && (
+    <>
+      By
+      <ul>
+        {" "}
+        {authors.map((a) => (
+          <Author id={a.id} />
+        ))}
+      </ul>
+    </>
+  )
+}
+<style>
+  ul {
+    display: inline;
+    list-style: none;
+    padding-left: 0;
+  }
+</style>
